@@ -1,0 +1,240 @@
+* {
+font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(236, 231, 196);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(142, 38, 38);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(236, 231, 196);
+}
+
+.background {
+    z-index: 1;
+    width: 100%;
+    position: static;
+    margin-top: 30px;
+    display: flex;
+}
+
+.gym-tag {
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.alerts-option {
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.alerts {
+    padding: 5px;
+}
+
+.box {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sign-in-here {
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.sign-in {
+    color: white;
+    padding: 20px;
+    background-color: rgb(142, 38, 38);
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.log-in {
+    padding: 10px;
+    margin: 25px;
+}
+
+.log-on {
+    color: black;
+}
+
+.enroll {
+    text-align: center;
+    padding: 50px;
+}
+
+.create {
+    background-color: rgb(142, 38, 38);
+    padding: 50px;
+    font-size: x-large;
+}
+
+.sign-out {
+    color: black;
+    padding: 20px;
+    background-color: rgb(236, 231, 196);
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.enroll-now {
+    color: black;
+    padding: 20px;
+    background-color: rgb(236, 231, 196);
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.congrats {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px #000,
+                  1px 1px 0 #000,
+                  1px -2px 0 #000,
+                  -1px -1px 0 #000;
+}
+
+.back {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+    color: black;
+}
+
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.map-image {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
